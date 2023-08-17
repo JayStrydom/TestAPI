@@ -22,7 +22,6 @@ namespace TestAPI.Controllers
             var model = new SessionModel();
             model.hostname = Dns.GetHostName();
 
-
             using (var command = _context.Database.GetDbConnection().CreateCommand())
             {
                 var sql = string.Format(@"
