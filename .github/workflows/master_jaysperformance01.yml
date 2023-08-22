@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'jaysperformance01'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DD0E3730793C421D8D098858E1FEE217 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0E88754B8BE148A5AE062ADC1A36A84C }}
           package: .
